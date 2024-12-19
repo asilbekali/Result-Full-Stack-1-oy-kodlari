@@ -1,0 +1,105 @@
+.container{
+    background-color: rgb(236, 235, 235);
+    width: 30%;
+    height: 50%;
+    margin: 150px auto;
+    border-radius: 15px;
+    padding: 25px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.2s;
+}
+
+
+.container:hover{
+    background-color: rgb(214, 214, 214);
+    width: 30%;
+    height: 50%;
+    margin: 150px auto;
+    border-radius: 15px;
+    padding: 25px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.exit{
+    margin-left: 98%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-section{
+    display: flex;
+    gap: 20px;
+}
+
+.header-section input{
+    font-size: 28px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.header-section i{
+    font-size: 30px;
+    margin: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.lbl{
+    display: block;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.card-input{
+    width: 100%;
+    font-size: 28px;
+    border-radius: 8px;
+}
+
+.cvv{
+    width: 125px;
+    height: 28px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.box i{
+    font-size: 40px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-person{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 28px;
+    border-radius: 8px;
+}
+
+.PAYMENT{
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(27, 93, 214);
+    color: white;
+    border: none;
+}
+
+.lor{
+    margin-top: 2px;
+    text-align: center;
+}

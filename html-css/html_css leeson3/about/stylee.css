@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nab-bar a{
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+}
+
+.nab-bar{
+    position: sticky;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid blue;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.nab-bar button{
+    cursor: pointer;
+    background-color: khaki;
+    border-radius: 15px;
+    width: 10%;
+}
+
+.cards {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    background-color: red;
+    position: relative;
+    width: 30%;
+}
+
+
+.card img{
+    width: 100%;
+}
+
+.txt {
+    margin: 15px;
+    text-align: justify;
+}
+
+
+.Like {
+    border: none;
+    color: rgb(20, 33, 220);
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 24px;
+    transition: all 0.2s;
+}
+
+.Like:hover{
+    cursor: pointer;
+    border: none;
+    color: rgb(235, 32, 18);
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 27px;
+}

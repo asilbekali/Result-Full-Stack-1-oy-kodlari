@@ -1,0 +1,73 @@
+js variables, data types, operators
+1) Js da nechta malumot turlari bor ? va qaysilar ?
+2) Js da variable yaratishni nech xil yo'li bor ? va qaysilar ?
+3) Turli yo'llar bilan yaratilgan variable larning farqlari ?
+4) primitive va non primitive malumot turlarining farqi ?
+5) Global variable bu ?
+6) Local variable bu ?
+7) Undefined va null ning farqlari ?
+8) bigint va number farqlari ?
+9) Symbol va string farqlari ?
+10) '==' va '===' farqi ?
+11) '++' vazifasi ?
+12) 'a++' va '++a' farqi?
+13) '>=' va '>' farqi ?
+14) console.log(4 >= '4' && 'alex' == 'frank' || 34 < 30) natija qanday chiqadi ?
+15) console.log(10 >= '4' && 34 < '44') natija qanday chiqadi ?
+16) console.log(4 >= '4' || 'hello' == 'Hello') natija qanday chiqadi ?
+17) console.log(9 <= '4' && 34 !== '34') natija qanday chiqadi ?
+18) console.log((4 > 10) || 'admin' != 'user') natija qanday chiqadi ?
+19) let a = 5
+    a++
+    a*=5
+    a+=5
+    --a
+    a-=2
+    console.log(a) natija qanday ?
+20) console.log( 45 > '55' || 34 === '34' || 'hello' ) 
+21) console.log( 0 || 34 != '34' || (33 == 1 && 34 > 4))
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------
+ 
+1 - 2 xil turga bolinada data tiplar primitiv va no primitiv hisoblanadi
+2 - 3 xil usuli bor let var cont orqali var golobal qilib elon qilinadi lekin hozirgi kunda kam ishlatilinadi let va const coproq ishlatilinadi let --> o'zgaruvchini buni  malumotini yani valuesioni o'zgartirsa boladi lekin valuesini ozgartirib bolmidi var --> da esa ham keyini qayta elon qilsa boladi valuesini o'gartirsa ham boladi va ikkita bir xil nomlik o'zgaruvchi oschilsa valuelari ham bir xil bolsa java script bulani 1 ta o'zgaruvchi qilib qoyadi 
+
+3 3 chi sacolga 2 ni ichida ham javob berib ketibman uzur
+
+4 primitive typelar bu number string boolen bigint lar hisoblanadi va ular o'ziga faqat 1 ta malumorni o'z ichiga oladi noprimitiv typlelar esa object hisoblanadi ular hudi box desak ham boladi ozi ichiga primitiv typlarni saqlaydi desak ham boladi
+
+5 var hisoblanadi 
+6 undefindent da consol loga berilgan o'zgaruvchi bolmasa undefinded beradi agar u o'zgaruvchi elon qilinib ichiga hech qanday malumot berilmasa null beradi
+7 bigin bilan juda kota raqamlar bilan ishlanadi number bilan esa kichikroq sonlar bilan ishlanadi va number oxriga borganida e chiqadi va undan uyog'iga big int bilan ishlash kerak
+8 simbali faqat 1 marta elon qilsa boladi yani unical boladi stringni esa kop elon qilsa boladi
+9 ==  bu qiymati boyicha tekshiradi ===  esa qiymati va turi yani numbermi yoki stringmi typesi boyicha ham tekshiradi
+10 bu numberga 1 qoshib beradi yani number typelik o'zgaruvchiga 1 qoshib beradi
+11 a++ birinchi ozgaruvchini ozini oladi va keyin qoshadi qiyman ++a esa birinchi o'zgaruvchiga qiymatni qoshadi va keyin ozgaruvchini chiqaradi consol log ichida bolsa
+12 >= bu ikktia number typelik ozgaruvchinii chap tarafdagisini o'ng tarafdagisi bilan solishtiradi kota va tenglika agar kota bolsa true boladi agar teng bolsa ham truue boladi 
+13 bunda false boladi sababi vani ichida false qiymat chiqdi va ikkinchisida ham 34 < 30 ikkovi ham false bolgani uchun false boladi
+14 false boladi sababi va turibdi vada ikkovi ham true bolsa tru qiymat qaytaradi bunda esa bitasi true bitasi false chiqyapti
+15 natija true chiqadi
+16 natija false chiqadi
+17 natija true chiqadi
+18 natija 32 chiqadi
+19 bunda true chiqadi sababi bu ichida 1 ta bolsa ham true bor
+20 natija false boladi buni ichida hamasi false bolyapti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

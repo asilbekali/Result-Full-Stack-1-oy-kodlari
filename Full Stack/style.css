@@ -1,0 +1,14 @@
+.box {
+    width: 100%;
+    background-color: red;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 50px;
+}
+
+
+img{
+    position: relative;
+}
